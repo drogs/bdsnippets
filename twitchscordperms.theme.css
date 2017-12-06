@@ -1,25 +1,2 @@
 //META{"name":"Twitchscord Permissions Theme","description":"Themes the Permissions Plugin to fit the Twitchscord Theme.","author":"Drog","version":"0.1"}*//{}
-		#permissions-modal-wrapper .callout-backdrop {
-			z-index: 1000
-		}
-		#permissions-modal-wrapper .modal-body {
-			border: 1px solid var(--titlebar-color);
-		}
-		#permissions-modal-wrapper .header {
-			background-color: var(--titlebar-color)!important;
-			z-index: 10001;
-			font-family: var(--font)!important;
-			color: var(--dark-text-header)!important;
-		}
-		#permissions-modal-wrapper .role-side {
-			background-color: var(--channels-color)!important;
-		}
-		#permissions-modal-wrapper .role-item.selected {
-			background-color: var(--dark-modal-bg)!important;
-		}
-		#permissions-modal-wrapper .perm-side {
-			background-color: var(--chat-color)!important;
-		}
-		#permissions-modal-wrapper .perm-name {
-		color: var(--dark-text-normal)!important;
-		}
+@import url(https://rawgit.com/drogs/bdsnippets/master/tcordperms.theme.css)
