@@ -3,6 +3,6 @@
 }
 
 .message-group-blocked {
- background: none;
-    border-color: hsla(0,0%,100%,.04);
+ background: none !important;
+    border-color: hsla(0,0%,100%,.04) !important;
 }
